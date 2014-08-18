@@ -5,7 +5,7 @@
 from itertools import islice
 
 def fib():
-''''''
+'''使用yield生成fibonaci数列'''
 	a, b = 0 ,1
 	while True:
 		yield a 
